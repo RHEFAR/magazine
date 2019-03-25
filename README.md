@@ -18,7 +18,7 @@ Frontend USER
 1. jalankan xampp, start apache
 1. buka browser, ketik localhost/magazine
 
-## Cara mengupdate/mengedit file di github
+## Cara mengupdate proyek di github setelah melakukan perubahan di komputer pribadi
 1. buka windows explorer
 1. buka C:\xampp\htdocs
 1. klik kanan, lalu klik 'open Powershell here' atau 'open cmd here'
