@@ -21,6 +21,7 @@ Frontend USER
 ## Cara mengupdate/mengedit file di github
 1. buka windows explorer
 1. buka C:\xampp\htdocs
+1. klik kanan, lalu klik 'open Powershell here' atau 'open cmd here'
 1. copy paste perintah berikut `git status`
 1. kemudian, `git pull origin master`
 1. kemudian, `git add .`
