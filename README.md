@@ -3,8 +3,8 @@ Frontend USER
 
 ## Aplikasi yang dibutuhkan untuk kontribusi
 1. git bisa download di
-* http://git-scm.com/download/mac (untuk mac)
-* http://msysgit.github.io/       (untuk windows)
+   * http://git-scm.com/download/mac (untuk mac)
+   * http://msysgit.github.io/       (untuk windows)
 1. xampp
 
 ## Cara mendownload projek
@@ -22,8 +22,8 @@ Frontend USER
 1. buka windows explorer
 1. buka C:\xampp\htdocs
 1. copy paste perintah berikut `git status`
-1. kemudian, 'git pull origin master'
-1. kemudian, 'git add .'
-1. kemudian, 'git commit -m "pesan keterangan perubahan yang dilakukan (bebas)"
+1. kemudian, `git pull origin master`
+1. kemudian, `git add .`
+1. kemudian, `git commit -m "pesan keterangan perubahan yang dilakukan (bebas)"`
 1. copy paste perintah berikut `git status`
-1. kemudian, 'git push origin master'
+1. kemudian, `git push origin master`
