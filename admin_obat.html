@@ -30,72 +30,72 @@
 	<link rel="stylesheet" href="css/main.css">
 	<style type="text/css">
 
-	.searchbar{
-		display: inline-flex;
-		margin-top: 20px;
-		margin-bottom: 10px;
-		height: 60px;
-		width: 60px;
-		background-color: #353b48;
-		border-radius: 30px;
-		padding: 10px;
-	}
-	.searchbar:hover > .search_input{
-		margin-left: 30px;
-		padding: 0 /*10px*/;
-		width: 80%;
-		caret-color:red;
-		transition: width 0.4s linear;
-	}
-	.searchbar:hover{
-		width: 100%;
-		caret-color:red;
-		transition: width 0.4s linear;
-	}
-	.searchbar:hover > .search_icon{
-		background: white;
-		color: #e74c3c;
-	}
-	.search_input{
-		margin-left: 0px;
-		color: white;
-		border: 0;
-		outline: 0;
-		background: none;
-		width: 0%;
-		caret-color:transparent;
-		line-height: 40px;
-		transition: width 0.4s linear;
-	}
-	.search_icon{
-		height: 40px;
-		width: 40px;
-		float: right;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border-radius: 50%;
-		color:white;
-	}
-	.search_icon:focus{
-		outline:none;
-	}
-	.text_input{
-		width: 100%;
-		border-radius: 20px;
-		outline: none;
-		padding-left: 10px;
+		.searchbar{
+			display: inline-flex;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			height: 60px;
+			width: 60px;
+			background-color: #353b48;
+			border-radius: 30px;
+			padding: 10px;
+		}
+		.searchbar:hover > .search_input{
+			margin-left: 30px;
+			padding: 0 /*10px*/;
+			width: 80%;
+			caret-color:red;
+			transition: width 0.4s linear;
+		}
+		.searchbar:hover{
+			width: 100%;
+			caret-color:red;
+			transition: width 0.4s linear;
+		}
+		.searchbar:hover > .search_icon{
+			background: white;
+			color: #e74c3c;
+		}
+		.search_input{
+			margin-left: 0px;
+			color: white;
+			border: 0;
+			outline: 0;
+			background: none;
+			width: 0%;
+			caret-color:transparent;
+			line-height: 40px;
+			transition: width 0.4s linear;
+		}
+		.search_icon{
+			height: 40px;
+			width: 40px;
+			float: right;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			color:white;
+		}
+		.search_icon:focus{
+			outline:none;
+		}
+		.text_input{
+			width: 100%;
+			border-radius: 20px;
+			outline: none;
+			padding-left: 10px;
 
-	}
-	.text_input:focus{
-		outline: none;
-	}
+		}
+		.text_input:focus{
+			outline: none;
+		}
 
 
-	
-	
+		
+		
 
-</style>
+	</style>
 </head>
 <body>
 	<header>
@@ -416,6 +416,12 @@
 					<div class="row"style="margin-top: 10px;">
 						<div class="col col-sm-4" style=" padding-top: 5px;">KETERANGAN</div>
 						<div class="col col-md-8"><input type="text" name="" class="text_input"></div>
+					</div>
+					<div class="row"style="margin-top: 10px;">
+						<div class="col col-sm-4" style=" padding-top: 5px;">FOTO</div>
+						<input type="file" id="file-with-current" class="input-default-js">
+
+						<!-- <div class="col col-md-8"><input type="text" name="" class="text_input"></div> -->
 					</div>
 				</div>
 
